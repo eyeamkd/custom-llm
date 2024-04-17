@@ -7,7 +7,7 @@ index = VectorStoreIndex.from_documents(documents)
 
 
 query_engine = index.as_query_engine()
-response = query_engine.query("Why did the War actually start?")
+response = query_engine.query("Explain Factorization Machines?")
 print(response)
 
 
